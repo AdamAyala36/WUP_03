@@ -24,6 +24,11 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 ```
 ## Now add in boxplot
 
+```{r}
+boxplot(alcohol~Seat,data=davisdata)
+```
+
+The box in the back row has a higher third quartile and the median looks slightly higher than the other boxes third quartile positions. Comparing the Middle and Front boxes we see both have a similar median and third quartile however the Middle box section has much more outliers. The boxes are not disjoint.
 
 
 ## Numerical Summarys 
