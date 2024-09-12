@@ -60,4 +60,4 @@ The Front-Back and the Middle-Back are very similar, they both have values below
 
 ## Conclusions
 
-
+A boxplot would show that back row was higher with alcohol consumption than the front and the middle rows. To see what was happening we did a numerical test to see that back row had a mean of 9 higher than the front row of 2 and middle row of 3. With this we did a Inferential result showing a probability of 0.000116. Proving that something is happening in this data. To see what is happening another test is done. This test would compare the different rows individually with each other. With this we can see that the Back row had a higher alcohol consumption than the Front and middle rows. As when the Front and Back row was compared and the Middle and back row it would be negative indicating one of the rows to be greater than the other. While when the Front and Back are compared they are above 0 showing around the same numbers. Proving that the back row has higher consumption than the front row and middle row as it must be the one to make the number negative.
