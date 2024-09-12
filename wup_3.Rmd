@@ -31,7 +31,14 @@ boxplot(alcohol~Seat,data=davisdata)
 The box in the back row has a higher third quartile and the median looks slightly higher than the other boxes third quartile positions. Comparing the Middle and Front boxes we see both have a similar median and third quartile however the Middle box section has much more outliers. The boxes are not disjoint.
 
 
-## Numerical Summarys 
+## Numerical Summarys
+
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+The front and back seat has around the same number of people while the back seat has more than twice their numbers. This summary shows that while the back seat had 32 people the back seat had a max of 55 drinks which is twice the numbers of the front and middle rows. The average of drinks in the back seat is 9.6 and the drinks for the front seat are about 2 and the beak seat has a mean of around 3.
+
 
 ## Inferential Tests
 
