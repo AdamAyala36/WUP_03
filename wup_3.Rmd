@@ -41,6 +41,22 @@ The front and back seat has around the same number of people while the back seat
 
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+The probability of getting these results are one out of ten thousand as seen by the 0.000116 probability. Telling us that is there is something going on here that is different between the groups. At least 2 of them are different and more investigation is needed.
+
+
+```{r}
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+
+The Front-Back and the Middle-Back are very similar, they both have values below 0 showing that there is a difference when compared to the Back. This is seen as the Middle-Front section is above zero showing great correlation with each other.
+
+
+
 
 ## Conclusions
 
